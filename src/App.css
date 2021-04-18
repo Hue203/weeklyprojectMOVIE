@@ -1,5 +1,14 @@
-body {
+/* body {
   background-color: #22254b;
+  color: white;
+  max-width: fit-content;
+  max-height: auto;
+} */
+
+.text-movie {
+  color: red;
+  font-size: 80px;
+  text-shadow: 8px 8px green;
 }
 .movie-container {
   display: flex;
@@ -17,7 +26,7 @@ body {
   position: relative;
 }
 .movie img {
-  width: 300px;
+  width: 350px;
 }
 .movie-info {
   display: flex;
@@ -32,7 +41,7 @@ body {
 .movie-overview {
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-  background-color: white;
+  background-color: greenyellow;
   color: #373b69;
   position: absolute;
   padding: 2rem;
@@ -63,6 +72,9 @@ body {
   margin-top: 45px;
 }
 .container-moviedetail {
+  max-width: 100%;
+  max-height: auto;
+  display: flex;
   background-color: #373b69;
   color: white;
 }
@@ -70,6 +82,75 @@ body {
   width: 700px;
   height: 700px;
 }
-.popularity {
-  margin: 50px;
+
+.search {
+  margin-top: 50px;
+  background-color: #22254b;
+  position: relative;
+}
+.btn {
+  margin-left: 430px;
+  background-color: hotpink;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin-left: 450px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.score-img {
+  width: 40px;
+  height: 40px;
+}
+.rating {
+  margin: 20px;
+  color: green;
+  font-size: 20px;
+}
+.detail-title {
+  margin-top: 30px;
+}
+.load-more-section {
+  background-color: #22254b;
+}
+.overview-card {
+  border: 3px solid grey;
+  width: 20%;
+  border-radius: 10%;
+  text-align: center;
+  background-color: #373b69;
+}
+.review-title {
+  font-size: 30px;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  text-align: center;
+  background-color: wheat;
+  text-shadow: 2px 2px palevioletred;
+}
+.review-card {
+  border: 1px solid grey;
+}
+.comments-contents {
+  padding-top: 30px;
+}
+.mainreview-contents {
+  padding-top: 30px;
+}
+.style-box-comments {
+  border: 1px solid grey;
+  margin-top: 20px;
+  background-color: wheat;
+  border-radius: 3px;
+  padding: 15px;
+}
+.top-box-comments {
+  padding: 15px;
 }

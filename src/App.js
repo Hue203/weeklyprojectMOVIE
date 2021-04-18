@@ -11,6 +11,7 @@ function App() {
     <div>
       <Router>
         <PublicNavbar />
+
         <Switch>
           <Route path="/" exact component={Homepage} />
           <Route path="/movie/:id" exact component={Detailpage} />

@@ -7,12 +7,12 @@ const PaginationNav = ({ page, setPage }) => {
     setPage(numPage);
   };
   return (
-    <div>
+    <div className="pagination">
       <Pagination
         currentPage={page}
-        totalPages={20}
+        totalPages={45}
         changeCurrentPage={changeCurrentPage}
-        theme="bottom-border"
+        theme="square-i"
       />
     </div>
   );
