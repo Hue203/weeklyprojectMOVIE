@@ -57,8 +57,10 @@
   transform: translateY(0%);
 }
 .container-moviedetail {
-  margin-top: 30px;
   display: flex;
+}
+.detailmovie-right-side {
+  margin-top: 70px;
 }
 .detailmovie-right-side {
   margin-left: 100px;
@@ -72,6 +74,7 @@
   margin-top: 45px;
 }
 .container-moviedetail {
+  margin-top: 30px;
   max-width: 100%;
   max-height: auto;
   display: flex;
@@ -81,10 +84,11 @@
 .img-detail {
   width: 700px;
   height: 700px;
+  margin-top: 70px;
 }
 
 .search {
-  margin-top: 50px;
+  margin-top: 20px;
   background-color: #22254b;
   position: relative;
 }
@@ -127,13 +131,12 @@
   background-color: #373b69;
 }
 .review-title {
-  font-size: 30px;
+  font-size: 40px;
   display: flex;
-  padding-top: 20px;
   justify-content: center;
   text-align: center;
-  background-color: wheat;
-  text-shadow: 2px 2px palevioletred;
+
+  text-shadow: 3px 3px green;
 }
 .review-card {
   border: 1px solid grey;
