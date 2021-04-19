@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, FormControl, Button, Col, Row } from "react-bootstrap";
+import { Form, FormControl, Button } from "react-bootstrap";
 
 const SearchForm = ({ handleOnSubmit, searchTerm, handleOnChange }) => {
   return (
