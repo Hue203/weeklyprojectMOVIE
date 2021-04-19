@@ -115,9 +115,9 @@
 }
 
 .search {
-  margin-top: 40px;
+  margin-top: 70px;
   background-color: #22254b;
-  /* position: relative; */
+  position: relative;
 }
 .btn {
   margin-left: 430px;
@@ -125,10 +125,10 @@
 .form {
   display: flex;
   justify-content: center;
-  margin-left: 450px;
+  margin-left: 400px;
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 30px;
 }
 .pagination {
   display: flex;

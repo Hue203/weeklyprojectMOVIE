@@ -4,9 +4,9 @@ import { Form, FormControl, Button, Col, Row } from "react-bootstrap";
 const SearchForm = ({ handleOnSubmit, searchTerm, handleOnChange }) => {
   return (
     <div>
-      <Row className="search">
+      <div className="search">
         <Form onSubmit={handleOnSubmit} className="form">
-          <Col>
+          <div>
             <FormControl
               className="form"
               type="text"
@@ -14,8 +14,8 @@ const SearchForm = ({ handleOnSubmit, searchTerm, handleOnChange }) => {
               value={searchTerm}
               onChange={handleOnChange}
             />
-          </Col>
-          <Col>
+          </div>
+          <div>
             <Button
               className="btn"
               variant="outline-info"
@@ -23,9 +23,9 @@ const SearchForm = ({ handleOnSubmit, searchTerm, handleOnChange }) => {
             >
               Search
             </Button>
-          </Col>
+          </div>
         </Form>
-      </Row>
+      </div>
     </div>
   );
 };

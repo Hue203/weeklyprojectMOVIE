@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const baseUrl = process.env.REACT_APP_URL;
