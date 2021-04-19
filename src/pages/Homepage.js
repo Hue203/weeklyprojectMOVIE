@@ -1,9 +1,9 @@
 import React from "react";
-import Trendingslider from "../components/Tredingslider";
+import Trendingslider from "../components/Trendingslider";
 
 const Homepage = () => {
   return (
-    <div className="body2">
+    <div className="body-homepage">
       <Trendingslider />
     </div>
   );

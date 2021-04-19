@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import socreicon from "../images/socreicon.png";
 
 import moment from "moment";
-// import Moment from "react-moment";
+
 import { Badge } from "react-bootstrap";
 const baseUrl = process.env.REACT_APP_URL;
 const API_KEY = process.env.REACT_APP_API_KEY;
