@@ -16,13 +16,15 @@ const SearchForm = ({ handleOnSubmit, searchTerm, handleOnChange }) => {
             />
           </div>
           <div>
-            <Button
-              className="btn"
-              variant="outline-info"
-              onClick={handleOnSubmit}
-            >
-              Search
-            </Button>
+            <a href="#playingnow">
+              <Button
+                className="btn"
+                variant="outline-info"
+                onClick={handleOnSubmit}
+              >
+                Search
+              </Button>
+            </a>
           </div>
         </Form>
       </div>

@@ -100,7 +100,7 @@ const Homepage = () => {
           </div>
           <div className="text-playing">Playing Now</div>
 
-          <div className="movie-container">
+          <div className="movie-container" id="playingnow">
             {listMovie &&
               listMovie.map((movie) => (
                 <Link to={`/movie/${movie.id}`}>
