@@ -10,7 +10,7 @@ const PublicNavbar = () => {
         </Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/movies">Movies</Nav.Link>
+          <Nav.Link href="/">Movies</Nav.Link>
           <Nav.Link href="/movie/:id">Account</Nav.Link>
         </Nav>
       </Navbar>
