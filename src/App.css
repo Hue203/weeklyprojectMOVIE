@@ -109,15 +109,17 @@
   color: white;
 }
 .img-detail {
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   margin-top: 70px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .search {
   margin-top: 70px;
   background-color: #22254b;
-  /* position: fixed; */
+  position: relative;
 }
 .btn {
   margin-left: 430px;
@@ -182,4 +184,9 @@
 }
 .top-box-comments {
   padding: 15px;
+}
+.img-detail-small {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
 }

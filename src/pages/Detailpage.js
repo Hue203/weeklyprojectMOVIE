@@ -116,7 +116,17 @@ const Detailpage = () => {
           </div>
 
           <div className="detailmovie-left-side">
-            <h1>This is a left side bottom</h1>
+            <h1>
+              <img
+                className="img-detail-small"
+                src={`${imgLink}${
+                  movieDetail?.backdrop_path == null
+                    ? movieDetail?.poster_path
+                    : movieDetail?.backdrop_path
+                }`}
+                alt={movieDetail.title}
+              />
+            </h1>
           </div>
         </div>
       </div>
