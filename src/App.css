@@ -24,18 +24,19 @@
   margin: 20px;
   padding: 5px;
   margin-left: 50px;
-  width: 500px;
-  height: 600px;
+  width: 450px;
+  height: 500px;
   background-color: green;
 }
 
 .trending-text {
-  margin-left: 30px;
+  margin-left: 40px;
   margin-top: 80px;
   font-size: 30px;
 }
 .text-playing {
-  font-size: 30px;
+  font-size: 40px;
+  margin-left: 40px;
 }
 .slider {
   margin: 0;
@@ -46,6 +47,7 @@
   text-shadow: 8px 8px green;
 }
 .movie-container {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -125,17 +127,17 @@
 }
 
 .search {
-  margin-top: 70px;
+  margin-top: 20px;
   background-color: #22254b;
   position: relative;
 }
 .btn {
-  margin-left: 430px;
+  margin-left: 250px;
 }
 .form {
   display: flex;
   justify-content: center;
-  margin-left: 400px;
+  margin-left: 200px;
   display: flex;
   align-items: center;
   padding: 30px;
