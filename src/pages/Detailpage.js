@@ -47,6 +47,7 @@ const Detailpage = () => {
   // };
   return (
     <>
+      <div style={{ display: "flex" }}></div>
       <div className="container-moviedetail">
         <img
           className="img-detail"
@@ -115,7 +116,7 @@ const Detailpage = () => {
           </div>
 
           <div className="detailmovie-left-side">
-            <h1>abc</h1>
+            <h1>This is a left side bottom</h1>
           </div>
         </div>
       </div>

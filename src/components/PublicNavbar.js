@@ -3,7 +3,7 @@ import { Nav, Navbar } from "react-bootstrap";
 
 const PublicNavbar = () => {
   return (
-    <div className="nav-bar">
+    <>
       <Navbar bg="dark" variant="dark" className="fixed-top">
         <Navbar.Brand href="/" className="text-movie">
           TheMovieDB
@@ -14,7 +14,7 @@ const PublicNavbar = () => {
           <Nav.Link href="/movie/:id">Account</Nav.Link>
         </Nav>
       </Navbar>
-    </div>
+    </>
   );
 };
 

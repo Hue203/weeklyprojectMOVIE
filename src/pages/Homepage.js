@@ -7,6 +7,7 @@ import SearchForm from "../components/SearchForm";
 import { Alert } from "react-bootstrap";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/core";
+import Trendingslider from "../components/Tredingslider";
 
 const baseUrl = process.env.REACT_APP_URL;
 const API_KEY = process.env.REACT_APP_API_KEY;
@@ -69,15 +70,6 @@ const Homepage = () => {
   const handleOnChange = (e) => {
     setSearchTerm(e.target.value);
   };
-  // const handleMore = () => {
-  //   if (commentPageNum >= commentTotalPageNum) return;
-
-  //   const url = `${baseUrl}/movie/now_playing?api_key=${API_KEY}&language=en-US&page=${
-  //     page + 1
-  //   }`;
-  //   setPage((num) => num + 1);
-  //   setListMovie(url);
-  // };
 
   return (
     <>
@@ -96,12 +88,17 @@ const Homepage = () => {
           size={300}
         />
       ) : (
-        <>
+        <div className="body">
           <SearchForm
             handleOnChange={handleOnChange}
             handleOnSubmit={handleOnSubmit}
             searchTerm={searchTerm}
           />
+          <Trendingslider />
+          <div>
+            <PaginationNav page={page} setPage={setPage} />
+          </div>
+          <div className="text-playing">Playing Now</div>
 
           <div className="movie-container">
             {listMovie &&
@@ -129,29 +126,8 @@ const Homepage = () => {
                   </div>
                 </Link>
               ))}
-            {/* <div className="d-flex justify-content-center">
-          {loading ? (
-            <MoonLoader color="#3F3BA7" size={75} loading={loading} />
-          ) : (
-            <>
-              {!disableShowMore && (
-                <Button
-                  className="btn btn-warning"
-                  type="button"
-                  onClick={handleMore}
-                  disabled={disableShowMore}
-                >
-                  Load More
-                </Button>
-              )}
-            </>
-          )}
-        </div> */}
-            <div className="fixed-bottom">
-              <PaginationNav page={page} setPage={setPage} />
-            </div>
           </div>
-        </>
+        </div>
       )}
     </>
   );
